@@ -1,5 +1,10 @@
 # Swisstronik Testnet
 
+- **Dashboard:**
+  https://www.swisstronik.com/testnet2/dashboard
+- **Faucet:**
+  https://www.swisstronik.com/testnet2/dashboard
+
 ## Setup Instructions
 
 1. **setup your repository:**
