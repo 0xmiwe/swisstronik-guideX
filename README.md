@@ -3,7 +3,7 @@
 - **Dashboard:**
   https://www.swisstronik.com/testnet2/dashboard
 - **Faucet:**
-  https://www.swisstronik.com/testnet2/dashboard
+  https://faucet.testnet.swisstronik.com/
 
 ## Setup Instructions
 
