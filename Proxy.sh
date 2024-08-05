@@ -94,7 +94,7 @@ async function main() {
 
   console.log('');
   
-  const upgradedSwisstronik = await upgrades.deployProxy(Swisstronik, ['Hello Swisstronik from CryptoCrocks!!'], { kind: 'transparent' });
+  const upgradedSwisstronik = await upgrades.deployProxy(Swisstronik, ['Hello Swisstronik fam!!'], { kind: 'transparent' });
   await upgradedSwisstronik.waitForDeployment(); 
   console.log('Proxy Swisstronik deployed to:', upgradedSwisstronik.target);
   fs.writeFileSync("proxiedContract.txt", upgradedSwisstronik.target);
@@ -138,7 +138,7 @@ async function main() {
   const contractFactory = await hre.ethers.getContractFactory("Swisstronik");
   const contract = contractFactory.attach(contractAddress);
   const functionName = "setMessage";
-  const messageToSet = "Hello Swisstronik from CryptoCrocks!!";
+  const messageToSet = "Hello Swisstronik fam!!";
   const setMessageTx = await sendShieldedTransaction(signer, contractAddress, contract.interface.encodeFunctionData(functionName, [messageToSet]), 0);
   await setMessageTx.wait();
   console.log("Transaction Receipt: ", setMessageTx);
