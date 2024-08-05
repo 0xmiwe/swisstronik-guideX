@@ -162,4 +162,4 @@ echo "Minting NFT..."
 npx hardhat run scripts/mint.js --network swisstronik
 echo "NFT minted."
 
-echo "Done!
+echo "Done!"
